@@ -1,3 +1,19 @@
+# virtual environment
+venv/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# large data files (not needed on Render)
+Synthetic_Fare_Dataset.csv
+fare_clean.csv
+
+# local logs and notebook clutter
+*.log
+.ipynb_checkpoints/
+
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
